@@ -1,21 +1,19 @@
 .mobile {
   display: none;
 }
-.desktop {
+.desktopNav {
   position: relative;
   height: 75px;
   width: 100%;
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .logo {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 900;
-}
-.desktop {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .navMenu {
@@ -25,4 +23,42 @@
 }
 .navMenu a {
   margin-left: 40px;
+}
+
+@media (max-width: 767px) {
+  .mobile {
+    display: block;
+  }
+  .logo {
+    font-size: 16px;
+  }
+  .desktopNav {
+    height: 60px;
+  }
+  .navMenu {
+    display: none;
+  }
+  .mobileNav {
+     position: fixed;
+     top: 60px;
+     left: 0px;
+     display: flex;
+     flex-direction: column;
+     background-color: #ffffff;
+     width: 350px;
+     height: 100vh;
+  }
+  .mobileNav a {
+     border-bottom: 1px solid #ebebeb;
+     padding: 20px 0px 20px 40px;
+  }
+}
+
+@media (max-width: 375px) {
+   .mobileNav a {
+      padding: 20px 0px 20px 20px;
+   }
+   .mobileNav {
+      width: 100%;
+   }
 }

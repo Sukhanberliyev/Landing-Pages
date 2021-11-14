@@ -1,11 +1,12 @@
 import Layout from "./components/Layout/Layout";
 
 import './App.css';
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (
     <Layout>
-      <h1>Hello World</h1>
+      <Hero />
     </Layout>
   );
 }
