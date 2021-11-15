@@ -1,3 +1,13 @@
+  .backdrop {
+  position: fixed;
+  z-index: 10;
+  background-color:rgba(0,0,0,.4);
+  width: 100%;
+  height: 100vh;
+  top: 60px;
+  left: 0;
+}
+
 .mobile {
   display: none;
 }
@@ -24,10 +34,33 @@
 .navMenu a {
   margin-left: 40px;
 }
+.burger {
+  display: none;
+}
+.burgerLine {
+  display: block;
+  width: 25px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #000000;
+  height: 3px;
+}
 
 @media (max-width: 767px) {
   .mobile {
     display: block;
+  }
+  .burger {
+    display: block;
+  }
+  .burgerLine.active:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .burgerLine.active:nth-child(2) {
+    opacity: 0;
+  }
+  .burgerLine.active:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
   .logo {
     font-size: 16px;
@@ -41,16 +74,30 @@
   .mobileNav {
      position: fixed;
      top: 60px;
-     left: 0px;
+     left: -450px;
+     z-index: 11;
      display: flex;
      flex-direction: column;
      background-color: #ffffff;
      width: 350px;
      height: 100vh;
+     transition: all 0.1s ease-in-out;
   }
   .mobileNav a {
      border-bottom: 1px solid #ebebeb;
      padding: 20px 0px 20px 40px;
+  }
+  .mobileNav.active {
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 350px;
+    height: 100vh;
+    transition: all 0.3s ease-in-out;
   }
 }
 

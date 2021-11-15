@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section>
+    <section id="hero">
       <img src="" alt="" />
       <h1>
         We <span>build</span> the future
