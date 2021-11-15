@@ -7,12 +7,18 @@
   top: 60px;
   left: 0;
 }
+.nav-container {
+  max-width: 1190px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 80px;
+}
 
 .mobile {
   display: none;
 }
 .desktopNav {
-  position: relative;
+  position: sticky;
   height: 75px;
   width: 100%;
   background-color: #ffffff;
@@ -46,6 +52,12 @@
   height: 3px;
 }
 
+@media (max-width: 1024px) {
+  .nav-container {
+    padding: 0px 40px;
+  }
+}
+
 @media (max-width: 767px) {
   .mobile {
     display: block;
@@ -74,7 +86,7 @@
   .mobileNav {
      position: fixed;
      top: 60px;
-     left: -450px;
+     left: -750px;
      z-index: 11;
      display: flex;
      flex-direction: column;
@@ -100,8 +112,10 @@
     transition: all 0.3s ease-in-out;
   }
 }
-
-@media (max-width: 375px) {
+@media (max-width: 640px) {
+  .nav-container {
+    padding: 0px 20px;
+  }
    .mobileNav a {
       padding: 20px 0px 20px 20px;
    }

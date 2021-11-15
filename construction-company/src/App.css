@@ -1,0 +1,24 @@
+h4 {
+   font-size: 12px;
+   font-weight: 700;
+   letter-spacing: 5%;
+   line-height: 30px;
+}
+h3 {
+   font-size: 24px;
+   font-weight: 400;
+   font-family: "Poppins", sans-serif;
+   line-height: 30px;
+   margin-bottom: 10px;
+}
+h3 span {
+   font-family: "Poppins", sans-serif;
+   color: #ECD52D;
+}
+
+p {
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 30px;
+}

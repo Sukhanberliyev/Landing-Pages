@@ -15,15 +15,13 @@ const NavBar = () => {
     window.addEventListener("resize", navBarHandler);
     return () => window.removeEventListener("resize", navBarHandler);
   }, []);
-   // Smooth Scrolling
 
 
    return (
       <div className="NavBar">
-      <Container>
+      <div className="nav-container">
          <div className="desktopNav">
             <div className="logo">FutureDesign Group</div>
-
             <div className="navMenu">
                <a href="#about" className="navLink">About Us</a>
                <a href="#features" className="navLink">Features</a>
@@ -49,7 +47,7 @@ const NavBar = () => {
             </nav>
             {open && <div className="backdrop" onClick={() => setOpen(!open)}></div>}
          </div>
-      </Container>
+      </div>
       </div>
    )
 }

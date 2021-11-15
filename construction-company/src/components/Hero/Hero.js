@@ -20,6 +20,10 @@ const Hero = () => {
             venenatis neque. Dui egestas nulla sagittis facilisis orci, egestas
             tellus, morbi amet.
           </p>
+          <div className="btns">
+            <div className="btn">View project</div>
+            <div className="btn">Contact us</div>
+          </div>
         </div>
       </Container>
     </section>

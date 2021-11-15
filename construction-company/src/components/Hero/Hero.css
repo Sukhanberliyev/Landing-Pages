@@ -13,7 +13,26 @@
   /* align-items: center; */
   object-fit: contain;
 }
-
+.btns {
+  display: flex;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 165px;
+  height: 50px;
+  background-color: #ffffff;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.btn:nth-child(1) {
+  margin-right: 25px;
+}
+.btn:hover {
+  background-color: #ecd52d;
+  width: 165px;
+}
 .heroText {
   max-width: 538px;
   width: 100%;
