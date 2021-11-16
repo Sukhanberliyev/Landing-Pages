@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import  "./NavBar.css"
-import Container from "../Layout/Container"
 
 
 const NavBar = () => {

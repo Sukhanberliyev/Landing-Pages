@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../Layout/Container";
 
-import "./About.css"
+import "./About.css";
 
 const About = () => {
   return (
@@ -10,7 +10,9 @@ const About = () => {
         <div className="about">
           <div className="aboutContent">
             <h4>EXPERIENCE</h4>
-            <h3>We are <span>professionals</span> in our business</h3>
+            <h3>
+              We are <span>professionals</span> in our business
+            </h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tortor
               gravida non congue tortor dictum elementum. Nullam risus,
@@ -38,7 +40,21 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <div className="aboutExperience">12</div>
+          <div className="aboutExperience">
+            <div className="aboutYears">
+              <span>2002</span>
+              <span>2022</span>
+            </div>
+            <div className="aboutImg">
+            <img src="/assets/images/experience.png" alt="" />
+              <div className="square">
+                <div className="numberImg">
+                  <img src="/assets/images/20.png" alt="" />
+                </div>
+                <p className="experienceText">YEARS OF EXPERIENCE IN ARCHETECTURE INDUSTRY</p>
+              </div>
+            </div>
+          </div>
         </div>
       </Container>
     </section>
