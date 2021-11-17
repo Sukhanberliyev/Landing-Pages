@@ -51,7 +51,7 @@ const About = () => {
                 <div className="numberImg">
                   <img src="/assets/images/20.png" alt="" />
                 </div>
-                <p className="experienceText">YEARS OF EXPERIENCE IN ARCHETECTURE INDUSTRY</p>
+                <p className="experienceText">YEARS OF EXPERIENCE IN <br/> ARCHETECTURE INDUSTRY</p>
               </div>
             </div>
           </div>

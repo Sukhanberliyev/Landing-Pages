@@ -1,0 +1,42 @@
+.best {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.video {
+  max-width: 464px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video img {
+  width: 100%;
+}
+.play {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  cursor: pointer;
+}
+.play:hover {
+  width: 60px;
+  height: 60px;
+}
+.bestContent {
+  max-width: 455px;
+  margin: 0px 0px 0px 30px;
+  width: 100%;
+}
+
+@media (max-width: 824px) {
+  .best {
+    flex-direction: column-reverse;
+  }
+  .video {
+    max-width: 800px;
+  }
+  .bestContent {
+    max-width: 800px;
+    margin: 0px 0px 30px 0px;
+  }
+}
