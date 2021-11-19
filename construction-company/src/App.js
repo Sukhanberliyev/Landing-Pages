@@ -6,6 +6,9 @@ import About from "./components/About/About";
 import Best from "./components/Thebest/Best";
 import Features from "./components/Features/Features";
 import Projects from "./components/OurProjects/Projects";
+import Eco from "./components/Eco/Eco";
+import Engineering from "./components/Engineering/Engineering";
+import Partners from "./components/Partners/Partners";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Best />
       <Features />
       <Projects />
+      <Eco />
+      <Engineering />
+      <Partners />
     </Layout>
   );
 }

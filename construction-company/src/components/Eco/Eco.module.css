@@ -1,0 +1,45 @@
+.ecoContent {
+  max-width: 565px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.ecoFeatures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ecoFeature {
+  /* max-width: 209px; */
+  margin-right: 25px;
+}
+.ecoFeature:last-child {
+  margin-right: 0px;
+}
+.box {
+  max-width: 255px;
+  width: 100%;
+  height: 297px;
+  background-color: #ecd52d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.boxAmount {
+  font-size: 55px;
+  font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+  .box {
+    max-width: 209px;
+    width: 209px;
+  }
+  .boxAmount {
+    font-size: 40px;
+  }
+  .ecoFeatures {
+    overflow-y: auto;
+  }
+}
