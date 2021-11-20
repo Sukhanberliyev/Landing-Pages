@@ -10,6 +10,7 @@ import Eco from "./components/Eco/Eco";
 import Engineering from "./components/Engineering/Engineering";
 import Partners from "./components/Partners/Partners";
 import Dna from "./components/Dna/Dna";
+import CTA from "./components/Layout/CTA";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Engineering />
       <Partners />
       <Dna />
+      <CTA />
     </Layout>
   );
 }
