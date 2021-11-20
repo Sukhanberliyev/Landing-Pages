@@ -9,6 +9,7 @@ import Projects from "./components/OurProjects/Projects";
 import Eco from "./components/Eco/Eco";
 import Engineering from "./components/Engineering/Engineering";
 import Partners from "./components/Partners/Partners";
+import Dna from "./components/Dna/Dna";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Eco />
       <Engineering />
       <Partners />
+      <Dna />
     </Layout>
   );
 }
