@@ -20,7 +20,7 @@ const NavBar = () => {
       <div className="NavBar">
       <div className="nav-container">
          <div className="desktopNav">
-            <div className="logo">FutureDesign Group</div>
+            <div className="logo">Flex Architecture</div>
             <div className="navMenu">
                <a href="#about" className="navLink">About Us</a>
                <a href="#features" className="navLink">Features</a>

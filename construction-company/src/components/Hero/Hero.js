@@ -6,23 +6,26 @@ import Container from "../Layout/Container";
 const Hero = () => {
   return (
     <section className="hero">
-    <img src="/assets/images/heroImg.png" alt="" />
+      <img src="/assets/images/heroImg.png" alt="" />
       <Container>
         <div className="heroText">
-          <h1>
+          <h1 className="heroTitle">
             We <span>build</span> the future
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tortor
-            gravida non congue tortor dictum elementum. Nullam risus,
-            ullamcorper elit lobortis gravida. Dolor amet sit pulvinar volutpat
-            vestibulum tortor, tortor dolor accumsan. Magna risus sed velit
-            venenatis neque. Dui egestas nulla sagittis facilisis orci, egestas
-            tellus, morbi amet.
+          <p className="heroDescription">
+            Flex Architecture is a large construction holding and leader in the
+            construction market industry. The holding has been operating since
+            2002 and during this time has earned a reputation as a professional
+            and reliable partner. We also made up of divisions and directorates
+            in various fields of construction, development and engineering.
           </p>
           <div className="btns">
-            <div className="btn">View project</div>
-            <div className="btn">Contact us</div>
+            <a href="#" className="btn">
+              View project
+            </a>
+            <a href="mailto:sukhanberliev@gmail.com" className="btn">
+              Contact us
+            </a>
           </div>
         </div>
       </Container>

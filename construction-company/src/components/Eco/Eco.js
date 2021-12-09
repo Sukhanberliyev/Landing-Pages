@@ -13,9 +13,9 @@ const Eco = () => {
             We do <span>care</span> about mother earth
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tortor
-            gravida non congue tortor dictum elementum. Nullam risus,
-            ullamcorper elit lobortis gravida. .
+            A few generations ago it seemed like the world’s resources were
+            infinite, and people needed only access them to create business and
+            grow humanity. Today we know how false that is.
           </p>
         </div>
         <div className={classes.ecoFeatures}>
@@ -23,25 +23,25 @@ const Eco = () => {
             <div className={classes.box}>
               <p className={classes.boxAmount}>85.5%</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Number one company in terms of recycling materials</p>
           </div>
           <div className={classes.ecoFeature}>
             <div className={classes.box}>
               <p className={classes.boxAmount}>>4Mio</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Less than average cubic meters of water reused in 2020</p>
           </div>
           <div className={classes.ecoFeature}>
             <div className={classes.box}>
               <p className={classes.boxAmount}>20.000</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Numbers of truckloads saved through the recycling the asphalt</p>
           </div>
           <div className={classes.ecoFeature}>
             <div className={classes.box}>
               <p className={classes.boxAmount}>15.000</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Number of plant species which where planted around the world</p>
           </div>
         </div>
       </Container>

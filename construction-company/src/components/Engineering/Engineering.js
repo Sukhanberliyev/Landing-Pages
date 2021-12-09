@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./Engineering.module.css"
+import classes from "./Engineering.module.css";
 import Container from "../Layout/Container";
 
 const Engineering = () => {
@@ -8,24 +8,31 @@ const Engineering = () => {
     <section>
       <Container>
         <div className={classes.engineeringContent}>
-          <h4>FUTURE ORIENTED</h4>
+          <h4>BUILDINGS OF TOMORROW</h4>
           <h3>
             Engineering the <span>future</span>
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tortor
-            gravida non congue tortor dictum elementum. Nullam risus,
-            ullamcorper elit lobortis gravida. .
+            The priority for our industry is to provide the essential building
+            and infrastructure services needed to secure a sustainable future.
           </p>
         </div>
         <div className={classes.engineering}>
           <div className={classes.engineeringBox}>
             <img src="/assets/images/engineering1.png" alt="img" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tortor gravida non congue tortor dictum elementum. Nullam risus, ullamcorper elit lobortis gravida.</p>
+            <p>
+              Whether you are an established enterprise or a growing company,
+              discover the best flexible spaces and solution to move your
+              business forward.
+            </p>
           </div>
           <div className={classes.engineeringBox}>
             <img src="/assets/images/engineering2.png" alt="img" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tortor gravida non congue tortor dictum elementum. Nullam risus, ullamcorper elit lobortis gravida.</p>
+            <p>
+              For companies of all sizes, Flex Architecture provides the global scale
+              and flexibility to help put your business on a map, adapt and
+              shine.
+            </p>
           </div>
         </div>
       </Container>

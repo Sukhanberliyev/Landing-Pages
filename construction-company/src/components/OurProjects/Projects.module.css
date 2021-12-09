@@ -1,5 +1,5 @@
 .projectContent {
-  max-width: 557px;
+  max-width: 372px;
   width: 100%;
   margin-bottom: 50px;
 }
@@ -14,9 +14,13 @@
   max-width: 100%;
   padding: 0 12px;
 }
-
+.projectTitle {
+  font-weight: 400;
+}
+.projectPlace {
+  font-weight: 300;
+}
 .project img {
-  /* margin-top: 8px; */
   vertical-align: middle;
 }
 .projectImage {
@@ -34,6 +38,7 @@
 .projectDescription {
   position: absolute;
   bottom: 20px;
+  padding: 5px;
   text-align: center;
   background-color: #ffffff;
   max-width: 220px;

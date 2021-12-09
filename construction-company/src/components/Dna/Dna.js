@@ -25,26 +25,25 @@ const Dna = () => {
           <div className={classes.message}>
             <div className={classes.quote}>
               <p className={classes.quoteDetails}>
-                “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
-                tortor gravida non congue.”
+                "Architecture and design is not about buildings and skyscrapers,
+                it is all about people"
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
-                tortor gravida non congue. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Et tortor gravida non congue tortor
-                dictum elementum. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Et tortor gravida non congue tortor dictum
-                elementum. Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Et tortor gravida non congue tortor dictum elementum.
+                Throughout history, architecture has stood as a representation
+                of society, reflecting the values, successes, and eventual
+                downfall of civilizations over time. From the monumental
+                structures to the residences and buildings that make up the
+                fabric of a city, we can learn a lot about who the people were
+                who inhabited them long before our time.
               </p>
             </div>
             <div className={classes.ceoInfo}>
               <div className={classes.info}>
-                <p className={classes.name}>Robert Alexander Mcmillian</p>
-                <p>Founder of BuildInvest Group</p>
+                <p className={classes.name}>Sicilia Benford Mcmillian</p>
+                <p>Founder of Flex Architecture</p>
               </div>
               <div className={classes.signature}>
-                <img src="" alt="signature" />
+                <img src="/assets/images/partners/dna.svg" alt="signature" />
               </div>
             </div>
           </div>

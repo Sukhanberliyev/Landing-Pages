@@ -1,7 +1,6 @@
 .hero {
   width: 100%;
   height: 100vh;
-
   background-image: url("../../assets/images/hero.png");
   background-size: cover;
   box-sizing: border-box;
@@ -10,8 +9,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   object-fit: contain;
+}
+.heroTitle {
+  color: #ffffff;
+}
+.heroDescription {
+  color: #ffffff;
+  /* margin-top: -15px; */
 }
 .btns {
   display: flex;
@@ -31,7 +36,8 @@
 }
 .btn:hover {
   background-color: #ecd52d;
-  width: 165px;
+  color: black;
+  /* width: 165px; */
 }
 .heroText {
   max-width: 538px;

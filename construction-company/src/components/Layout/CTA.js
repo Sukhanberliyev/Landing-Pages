@@ -8,10 +8,11 @@ const CTA = () => {
         <div className={classes.cta}>
           <h4 className={classes.ctaSubTitle}>GET IN TOUCH</h4>
           <h3 className={classes.title}>
-            We do <span>care</span> about mother earth
+            Global enterprise <span>solution</span> for <br/> the buildings of
+            tomorrow
           </h3>
           {/* <p>Contact us</p> */}
-          <div className={classes.ctaBtn}>Contact us</div>
+          <a href="mailto:sukhanberliev@gmail.com" className={classes.ctaBtn}>Contact us</a>
         </div>
       </Container>
     </section>

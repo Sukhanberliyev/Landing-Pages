@@ -10,57 +10,48 @@ const Whyus = () => {
         <div className={classes.featureContent}>
           <h4>WHY CHOOSE US</h4>
           <h3>
-            One of the <span>leading</span> architecture <br /> companies in the
-            world
+            Our design <span>change</span> the way people
+            <br /> live, work, learn, and play
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tortor
-            gravida non congue tortor dictum elementum. Nullam risus,
-            ullamcorper elit lobortis gravida. .
+            Fast forward 20 years and we are operating from four international
+            offices across two continents, and designing in over 30 countries.
           </p>
         </div>
         <div className={classes}>
           <div className={classes.featuresCol}>
             <div className={classes.feature}>
-              <p className={classes.featureTitle}>First Reason</p>
+              <p className={classes.featureTitle}>Any Size</p>
+              <p>From a small building to a huge skyscrapers of your choice</p>
+            </div>
+            <div className={classes.feature}>
+              <p className={classes.featureTitle}>From Anywhere</p>
+              <p>We operate no matter of place or location around the world</p>
+            </div>
+            <div className={classes.feature}>
+              <p className={classes.featureTitle}>Data Driven</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
-                tortor gravida non congue
+                Design based on data provided by our Research and Development
+                team
               </p>
             </div>
             <div className={classes.feature}>
-              <p className={classes.featureTitle}>Second Reason</p>
+              <p className={classes.featureTitle}>Green Building</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
-                tortor gravida non congue
+                Great experience of innovative green technologies and processes
               </p>
             </div>
             <div className={classes.feature}>
-              <p className={classes.featureTitle}>Third Reason</p>
+              <p className={classes.featureTitle}>“B” Corp Certified</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
-                tortor gravida non congue
+                Highest standards of social and environmental performance and
+                public transparency
               </p>
             </div>
             <div className={classes.feature}>
-              <p className={classes.featureTitle}>Fourth Reason</p>
+              <p className={classes.featureTitle}>All About People</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
-                tortor gravida non congue
-              </p>
-            </div>
-            <div className={classes.feature}>
-              <p className={classes.featureTitle}>Fifth Reason</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
-                tortor gravida non congue
-              </p>
-            </div>
-            <div className={classes.feature}>
-              <p className={classes.featureTitle}>Sixth Reason</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
-                tortor gravida non congue
+              We are 35,000 people united in building for a better society
               </p>
             </div>
           </div>

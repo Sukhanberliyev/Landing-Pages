@@ -21,12 +21,11 @@ const Best = () => {
               world
             </h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tortor
-              gravida non congue tortor dictum elementum. Nullam risus,
-              ullamcorper elit lobortis gravida. Dolor amet sit pulvinar
-              volutpat vestibulum tortor, tortor dolor accumsan. Magna risus sed
-              velit venenatis neque. Dui egestas nulla sagittis facilisis orci,
-              egestas tellus, morbi amet.
+              This time 20 years ago, Company Name was just a pen, a drawing
+              board and an idea of one young mind: Meredith Vackerman, a ceo of
+              Flex Architecture. At their kitchen table, she sketched out their
+              first design and the future of Flex Architecture. Since then, we
+              have been coloring the streets, and change the shape of world.
             </p>
           </div>
         </div>

@@ -13,8 +13,8 @@ const Partners = () => {
             Trusted by market <span>leaders</span>
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tortor
-            gravida non congue tortor dictum elementum.
+            We are pleased to work with thousands of partners. Those who work
+            with us globally include
           </p>
         </div>
         <div className={classes.partners}>
@@ -25,57 +25,78 @@ const Partners = () => {
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img
+                src="/assets/images/partners/hensel.png"
+                alt="partnerImage"
+              />
             </div>
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img src="/assets/images/partners/walsh.png" alt="partnerImage" />
             </div>
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img
+                src="/assets/images/partners/haskell.png"
+                alt="partnerImage"
+              />
             </div>
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img
+                src="/assets/images/partners/hitachi.png"
+                alt="partnerImage"
+              />
             </div>
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img
+                src="/assets/images/partners/lendlease.png"
+                alt="partnerImage"
+              />
             </div>
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img
+                src="/assets/images/partners/turner.png"
+                alt="partnerImage"
+              />
             </div>
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img src="/assets/images/partners/aecom.png" alt="partnerImage" />
             </div>
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img
+                src="/assets/images/partners/skanska.png"
+                alt="partnerImage"
+              />
             </div>
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img
+                src="/assets/images/partners/jacobs.png"
+                alt="partnerImage"
+              />
             </div>
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img src="/assets/images/partners/pcl.png" alt="partnerImage" />
             </div>
           </div>
           <div className={classes.partner}>
             <div className={classes.logoImg}>
-              <img src="/assets/images/partners/3m.png" alt="partnerImage" />
+              <img src="/assets/images/partners/fluor.png" alt="partnerImage" />
             </div>
           </div>
         </div>
