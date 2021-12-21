@@ -1,4 +1,10 @@
-  .backdrop {
+.NavBar {
+  position: fixed;
+  max-width: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+.backdrop {
   position: fixed;
   z-index: 10;
   background-color:rgba(0,0,0,.4);
@@ -21,7 +27,7 @@
   position: sticky;
   height: 75px;
   width: 100%;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   display: flex;
   align-items: center;
   justify-content: space-between;

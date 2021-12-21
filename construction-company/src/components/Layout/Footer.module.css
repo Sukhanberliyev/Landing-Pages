@@ -2,6 +2,7 @@ footer {
   background-color: #000000;
   color: #ffffff;
   position: relative;
+  z-index: -1;
 }
 .footerInfo {
   display: flex;
@@ -16,6 +17,7 @@ footer {
   font-weight: 500;
 }
 .footerNav {
+  font-size: 14px;
   max-width: 503px;
   width: 100%;
   display: flex;
@@ -28,10 +30,29 @@ footer {
   position: absolute;
   bottom: 10px;
 }
+.copyrights p {
+  font-size: 10px;
+}
 .line {
-   position: absolute;
-   bottom: 50px;
-   border-top: 1px solid #ffffff;
-   opacity: 0.2;
-   width: 100%;
+  position: absolute;
+  bottom: 50px;
+  border-top: 1px solid #ffffff;
+  opacity: 0.2;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .footerNav {
+    flex-direction: column;
+    max-width: 65px;
+  }
+}
+@media (max-width: 425px) {
+  .footerInfo {
+    flex-direction: column-reverse;
+  }
+  .footerNav {
+    height: 150px;
+    margin-bottom: 30px;
+  }
 }

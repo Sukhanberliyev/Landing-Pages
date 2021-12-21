@@ -25,6 +25,7 @@
 }
 .projectImage {
   position: relative;
+  z-index: -1;
   margin-top: 24px;
   vertical-align: middle;
   display: flex;

@@ -37,6 +37,7 @@ h2 {
 }
 .aboutImg {
    position: relative;
+   z-index: -1;
    max-width: 309px;
    width: 100%;
    margin-left: 16px;

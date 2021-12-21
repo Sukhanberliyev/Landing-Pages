@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <div className={classes.footerInfo}>
           <div className={classes.companyInfo}>
-            <p className={classes.logo}>Group</p>
+            <p className={classes.logo}>Flex Architecture</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tortor
               gravida non congue tortor dictum elementum. Nullam risus,
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={classes.copyrights}>
-           <p>Copyrights 2021 (c) Group name. All rights reserved.</p>
+           <p>Copyrights 2021 (c) Flex Architecture. All rights reserved.</p>
         </div>
       </Container>
         <span className={classes.line}></span>
